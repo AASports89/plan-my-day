@@ -1,20 +1,17 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# PLAN MY DAY 
 
-## Your Task
+## APPLICATION OVERVIEW:
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+The Plan My Day work planner is an user friendly and intuitive application designed to assist the user in planning out their daily work activities. Some of the functionality includes features where the user is able to transcribe their work acitvities in as much detail as desired into the expandable text area within each row corresponding to the appropriate hour.
 
-You'll need to use the [Moment.js](https://momentjs.com/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Moment.js in the browser.
+Additionally, the application has a date & time feature located directly in the center of the header, which displays a live full date and time down to seconds. Furthermore, the app contains a 'CLEAR' button designed to erase all of the activity descriptions the user may have entered throughout the usage of the planner. Lastly, there is a button designed to save the work activity description for each corresponding hour indicated by a 'game controller' icon and hover attribute.
 
-## User Story
+This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. It is designed to work off the JavaScript linked library located in [Moment.js](https://momentjs.com/) to work with date and time.
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+Below is an 'Acceptance Criteria' used to rate the app prior to making it available to the public:
 
-## Acceptance Criteria
+
+## ACCEPTANCE CRITERIA:
 
 ```md
 GIVEN I am using a daily planner to create a schedule
@@ -32,24 +29,42 @@ WHEN I refresh the page
 THEN the saved events persist
 ```
 
-The following animation demonstrates the application functionality:
+**Note:** The following GIF and images will demonstrate the application's look and functionality:
 
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+![The following GIF highlights the functionality and overall look of the application.](./assets/images/plan-my-day.gif)
 
 
-## Grading Requirements
+### Main Screen:
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+![The following image highlights the main screen of the application.](./assets/images/plan-my-day.jpg)
 
-This Challenge is graded based on the following criteria: 
+
+### Data Storage & Corresponding Time:
+
+![The following image highlights the storage area of the work activity descriptions and the corresponding hour.](./assets/images/plan-my-day-2.jpg)
+
+
+### Save Button:
+
+![The following image highlights the save button functionality.](./assets/images/plan-my-day-3.jpg)
+
+
+### 'CLEAR' Button:
+
+![The following image highlights the 'CLEAR' button functionality.](./assets/images/plan-my-day-4.jpg)
+
+
+### Deployed Webpage URL:
+
+
+
+### GitHUB Repository URL:
+
+
+
+## EVALUATION GUIDELINE:
+
+This application is evaluated based on the following guideline:
 
 ### Technical Acceptance Criteria: 40%
 
@@ -96,4 +111,3 @@ You are required to submit the following for review:
 * The URL of the GitHub repository, with a unique name and a README describing the project
 
 - - -
-© 2022 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
