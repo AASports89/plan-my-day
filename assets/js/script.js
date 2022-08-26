@@ -1,18 +1,19 @@
 $(document).ready(function () {
-    //For the current date and time, I used Moment.js code
+
+    //FOR CURRENT TIME & DATE - FORMAT FOUND IN MOMENT.JS//
     let NowMoment = moment().format("MMMM Do YYYY, h:mm:ss a");
     let displayDate = document.getElementById("currentDay");
     displayDate.innerHTML = NowMoment;
     let currentHour = moment().format("HH");
   
-    // To clear local storage and clear contents, I used the button function
+    //BUTTON FUNCTION TO CLEAR LOCAL STORAGE & ACTIVITY DESCRIPTION CONTENTS//
     $("#clearFieldsBtn").click(function (event) {
       event.preventDefault;
       $("textarea").val("");
       localStorage.clear();
     });
-  
-    //This code purpose is to grab hour from each time slot and compare it to the actual time
+   
+    //GRAB HOUR FROM EACH TIME SLOT & COMPARE TO THE ACTUAL TIME//
     $(".time-div").each(function () {
       var timeDiv = $(this).attr("id").split("-")[1];
       
@@ -27,8 +28,8 @@ $(document).ready(function () {
         $(this).addClass("past");
       }
     });
-  
-    //These lines of codes save the values from time and value divs to local storage
+    
+    //SAVE THE VALUES FROM TIME AND VALUE DIVS TO LOCAL STORAGE//
     $(".saveBtn").click(function (event) {
       event.preventDefault();
       var value = $(this).siblings(".time-block").val();
@@ -36,7 +37,7 @@ $(document).ready(function () {
       localStorage.setItem(time, value);
     });
   
-    //These lines of codes retrieve items from local storage and set them in proper places
+    //RETRIEVE ITEMS FROM LOCAL STORAGE AND SET THEM IN APPROPRIATE SPOTS//
     $("#hour-09 .time-block").val(localStorage.getItem("09"));
     $("#hour-10 .time-block").val(localStorage.getItem("10"));
     $("#hour-11 .time-block").val(localStorage.getItem("11"));
