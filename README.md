@@ -4,7 +4,7 @@
 
 The Plan My Day work planner is a user friendly and intuitive application designed to assist the user in planning out their daily work activities. Some of the functionality includes the user's ability to transcribe their work acitvities in as much detail as desired within the expandable text area rows, each corresponding to an hour of the work day.
 
-Additionally, the application has a date & time text bar located directly in the center of the header, which displays a live full date and time stamp down to seconds. Furthermore, the app contains a 'CLEAR' button designed to erase all of the activity descriptions the user may have entered throughout the usage of the planner. Lastly, the save button is designed to save the work activity description for each corresponding hour indicated by the 'game controller' icon and hover attributes.
+Additionally, the application has a date & time text bar located directly in the center of the header, which displays a live full date and time stamp down to the seconds. Furthermore, the app contains a 'CLEAR' button designed to erase all of the activity descriptions the user may have entered throughout the usage of the planner. Lastly, the save button is designed to save the work activity description for each corresponding hour indicated by the 'game controller' icon and hover attributes.
 
 This app will run in the browser featuring dynamically updated HTML and CSS powered by jQuery. It is designed to work off JavaScript linked to a library located in [Moment.js](https://momentjs.com/), specifically to work with live dates and times.
 
