@@ -133,7 +133,7 @@ border: 1px solid #0563c1;
 @media (max-width: 900px) {
 
   .container {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
 
   img {
@@ -166,7 +166,7 @@ border: 1px solid #0563c1;
 @media (max-width: 760px) {
    
   .container {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
 
    img {
@@ -199,9 +199,9 @@ border: 1px solid #0563c1;
 @media (max-width: 500px) {
    
   .container {
-    flex-direction: column;
+    flex-wrap: wrap;
   }
-  
+
   img {
     width: 400px;
     height: 100px;
@@ -210,7 +210,7 @@ border: 1px solid #0563c1;
   #clearFieldsBtn {
     width: 150px;
     margin-bottom: 5px;
-  margin-left: -1%;
+    margin-left: -1%;
   }
 
   .row {
