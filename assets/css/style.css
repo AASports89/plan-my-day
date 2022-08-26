@@ -40,13 +40,12 @@ img {
 }
 
 #clearFieldsBtn {
-width: 400px;
 margin-top: 25px;
 margin-bottom: -35px;
-margin-left: 450px;
 border-radius: 0.5em;
 background-color: aqua;
 border: 1px solid #0563c1;
+width: 300px;
 }
 
 #clearFieldsBtn:hover {
@@ -141,12 +140,6 @@ border: 1px solid #0563c1;
     height: 100px;
   }
 
-  #clearFieldsBtn {
-    width: 150px;
-    margin-bottom: 5px;
-    margin-left: -1%;
-  }
-
   .row {
    margin: 50px;
  }
@@ -172,12 +165,6 @@ border: 1px solid #0563c1;
    img {
      width: 400px;
      height: 100px;
-   }
- 
-   #clearFieldsBtn {
-     width: 150px;
-     margin-bottom: 5px;
-   margin-left: -1%;
    }
 
    .row {
@@ -208,9 +195,7 @@ border: 1px solid #0563c1;
   }
 
   #clearFieldsBtn {
-    width: 150px;
-    margin-bottom: 5px;
-    margin-left: -1%;
+   margin-bottom: 2.5px;
   }
 
   .row {
