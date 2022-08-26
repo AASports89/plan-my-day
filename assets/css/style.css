@@ -4,6 +4,10 @@ body {
   font-weight: bold;
 }
 
+.container {
+display: flex column;
+}
+
 textarea {
   background: transparent;
   border: none;
@@ -128,6 +132,10 @@ border: 1px solid #0563c1;
 
 @media (max-width: 900px) {
 
+  .container {
+    flex-direction: column;
+  }
+
   img {
     width: 400px;
     height: 100px;
@@ -157,6 +165,10 @@ border: 1px solid #0563c1;
 
 @media (max-width: 760px) {
    
+  .container {
+    flex-direction: column;
+  }
+
    img {
      width: 400px;
      height: 100px;
@@ -186,6 +198,10 @@ border: 1px solid #0563c1;
 
 @media (max-width: 500px) {
    
+  .container {
+    flex-direction: column;
+  }
+  
   img {
     width: 400px;
     height: 100px;
